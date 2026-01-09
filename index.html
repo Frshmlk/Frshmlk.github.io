@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flower Haven</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body class="bg-pink-50 font-sans text-gray-800">
+
+
+  <header class="bg-white shadow sticky top-0">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-pink-700">Bloom & Petal</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-pink-600">About</a>
+        <a href="#flowers" class="text-gray-700 hover:text-pink-600">Flowers</a>
+        <a href="#contact" class="text-gray-700 hover:text-pink-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="py-20 text-center bg-cover bg-center" 
+           style="background-image: url('https://source.unsplash.com/1600x900/?flowers');">
+    <div class="bg-white/70 p-10 rounded-lg inline-block">
+      <h2 class="text-4xl font-bold text-pink-700 mb-4">Fresh blooms, lovingly arranged</h2>
+      <p class="text-lg text-gray-700 mb-6">
+        Handpicked flowers for every moment—weddings, birthdays, and the quiet joys in between.
+      </p>
+      <a href="#flowers" class="bg-pink-600 text-white px-6 py-3 rounded-lg shadow hover:bg-pink-700">
+        Explore Flowers
+      </a>
+    </div>
+  </section>
+
+
+  <section id="about" class="py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold text-pink-700 mb-4">About us</h3>
+      <p class="max-w-2xl mx-auto text-gray-600">
+        We're a small, craft-first flower studio passionate about seasonal stems, ethical sourcing, and
+        thoughtful design. Each bouquet is arranged to highlight texture, color, and fragrance—bringing a
+        touch of nature to your space.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="flowers" class="py-16 bg-pink-50">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold text-pink-700 mb-8">Featured flowers</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <article class="bg-white rounded-lg shadow p-6 hover:scale-105 transition">
+          <img src="rose-garden-beauty-shot_SNS.jpg" alt="Garden Rose" 
+               class="w-full h-40 object-cover rounded mb-4">
+          <h4 class="text-xl font-bold text-pink-600 mb-2">Garden Rose</h4>
+          <p class="text-gray-600">Classic romance with plush petals and a soft, layered scent.</p>
+        </article>
+
+        <article class="bg-white rounded-lg shadow p-6 hover:scale-105 transition">
+          <img src="tulip.jpg" alt="Tulip" 
+               class="w-full h-40 object-cover rounded mb-4">
+          <h4 class="text-xl font-bold text-pink-600 mb-2">Tulip</h4>
+          <p class="text-gray-600">Minimal elegance—clean lines, vibrant colors, modern feel.</p>
+        </article>
+
+        <article class="bg-white rounded-lg shadow p-6 hover:scale-105 transition">
+          <img src="liliy.jpg" alt="Oriental Lily" 
+               class="w-full h-40 object-cover rounded mb-4">
+          <h4 class="text-xl font-bold text-pink-600 mb-2">Oriental Lily</h4>
+          <p class="text-gray-600">Striking blooms with a bold fragrance and graceful silhouette.</p>
+        </article>
+
+        <article class="bg-white rounded-lg shadow p-6 hover:scale-105 transition">
+          <img src="sunflower.jpeg" alt="Sunflower" 
+               class="w-full h-40 object-cover rounded mb-4">
+          <h4 class="text-xl font-bold text-pink-600 mb-2">Sunflower</h4>
+          <p class="text-gray-600">Bright, cheerful, and full of sunshine—perfect for uplifting spaces.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-semibold text-pink-700 mb-4">Contact</h3>
+      <p class="text-gray-600">Email: hello@flowerhaven.example</p>
+      <p class="text-gray-600 mb-6">Visit: Bloom Lane, Iloilo City, Philippines</p>
+      <a href="#flowers" class="border-2 border-pink-600 text-pink-600 px-6 py-3 rounded-lg hover:bg-pink-600 hover:text-white">
+        Order a bouquet
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <small>© 2026 Flower Haven. Crafted with care.</small>
+  </footer>
+</body>
+</html>
